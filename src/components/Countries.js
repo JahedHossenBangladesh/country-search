@@ -44,39 +44,3 @@ export default function Countries(props) {
     );
 }
 
-
-//  <>
-//         <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-//           <img
-//             class="w-32 h-32 rounded-full mx-auto"
-//             src={flag}
-//             alt=""
-//             width="384"
-//             height="512"
-//           />
-//           <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-//             <blockquote>
-//               <p class="text-lg font-semibold">Country Name:{name}</p>
-//             </blockquote>
-//             <figcaption class="font-medium">
-//               <div class="text-cyan-600"><p>
-//                 Capital : {capital}</p>
-//                 <p>region:{region}</p>
-//                 <p>{subregion}</p>
-//                 <p>population:{population}</p>
-//                 {/* <p>borders:{borders}</p> */}
-//                 <p>Borders:</p>
-//                 {
-//                   borders.map(txt => <p>{txt}</p>)
-//                 }
-                
-//                 </div>
-//               <div class="text-gray-500">
-//                 {languages.map((language) => (
-//                   <p>Language:{language.name}</p>
-//                 ))}
-//               </div>
-//             </figcaption>
-//           </div>
-//         </figure>
-//       </>
